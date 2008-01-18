@@ -16,8 +16,9 @@ URL: http://xorg.freedesktop.org
 Source0: xf86-video-ark-%{version}.tar.bz2
 License: MIT
 ########################################################################
-# git-format-patch xf86-video-ark-0.6.0@mandriva..origin/mandriva+gpl
+# git-format-patch xf86-video-ark-0.6.0@mandriva..origin/mandriva
 Patch1: 0001-Update-for-new-policy-of-hidden-symbols-and-common-m.patch
+Patch2: 0002-Don-t-need-to-check-for-dri-headers-and-run-time.patch
 ########################################################################
 BuildRequires: x11-util-macros		>= 1.1.5-4mdk
 BuildRequires: libpixman-1-devel	>= 0.9.6
@@ -32,6 +33,7 @@ The X.org driver for ARK Logic graphics chipsets
 %setup -q -n xf86-video-ark-%{version}
 
 %patch1 -p1
+%patch2 -p1
 
 %build
 autoreconf -ifs
