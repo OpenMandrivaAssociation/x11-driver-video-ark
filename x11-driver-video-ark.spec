@@ -1,8 +1,6 @@
-%define debug_package	%{nil}
-
 Name: x11-driver-video-ark
 Version: 0.6.0
-Release: %mkrel 5
+Release: %mkrel 6
 Summary: The X.org driver for ARK Logic graphics chipsets
 Group: Development/X11
 URL: http://xorg.freedesktop.org
