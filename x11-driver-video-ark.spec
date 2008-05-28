@@ -13,7 +13,7 @@ BuildRequires: x11-util-macros >= 1.0.1
 Conflicts: xorg-x11-server < 7.0
 
 %description
-The X.org driver for ARK Logic graphics chipsets.
+x11-driver-video-ark is the X.org driver for ARK Logic graphics chipsets.
 
 %prep
 %setup -q -n xf86-video-ark-%{version}
