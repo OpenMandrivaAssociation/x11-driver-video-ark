@@ -1,7 +1,7 @@
 Name: x11-driver-video-ark
 Version: 0.7.0
 Release: %mkrel 1
-Summary: The X.org driver for ARK Logic graphics chipsets
+Summary: X.org driver for ARK Logic graphics chipsets
 Group: Development/X11
 URL: http://xorg.freedesktop.org
 Source: http://xorg.freedesktop.org/releases/individual/driver/xf86-video-ark-%{version}.tar.bz2
