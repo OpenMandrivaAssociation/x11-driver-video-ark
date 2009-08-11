@@ -19,7 +19,7 @@ x11-driver-video-ark is the X.org driver for ARK Logic graphics chipsets.
 %setup -q -n xf86-video-ark-%{version}
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
