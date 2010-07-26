@@ -1,5 +1,5 @@
 Name: x11-driver-video-ark
-Version: 0.7.2
+Version: 0.7.3
 Release: %mkrel 1
 Summary: X.org driver for ARK Logic graphics chipsets
 Group: System/X11
