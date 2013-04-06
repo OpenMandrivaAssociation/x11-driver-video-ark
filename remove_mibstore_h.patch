@@ -1,5 +1,5 @@
---- xf86-video-ark-0.7.5/src/ark_driver.c~	2012-07-17 04:51:36.000000000 +0000
-+++ xf86-video-ark-0.7.5/src/ark_driver.c	2013-03-23 22:38:03.514595532 +0000
+--- xf86-video-ark-0.7.5/src/ark_driver.c.0000~	2012-07-17 06:51:36.000000000 +0200
++++ xf86-video-ark-0.7.5/src/ark_driver.c	2013-04-06 02:55:37.556905114 +0200
 @@ -39,7 +39,6 @@
  #include "compiler.h"
  #include "mipointer.h"
@@ -8,3 +8,11 @@
  #include "fb.h"
  #include "ark.h"
  
+@@ -538,7 +537,6 @@ static Bool ARKScreenInit(SCREEN_INIT_AR
+ 
+ 	fbPictureInit (pScreen, 0, 0);
+ 
+-	miInitializeBackingStore(pScreen);
+ 	xf86SetBackingStore(pScreen);
+ 
+ 	if (!pARK->NoAccel) {
