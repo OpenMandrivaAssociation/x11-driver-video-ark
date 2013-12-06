@@ -3,7 +3,7 @@
 Summary:	X.org driver for ARK Logic graphics chipsets
 Name:		x11-driver-video-ark
 Version:	0.7.5
-Release:	6
+Release:	7
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
