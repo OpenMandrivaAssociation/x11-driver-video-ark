@@ -1,4 +1,7 @@
 %define _disable_ld_no_undefined 1
+ %ifarch 
+ i586 export CC=gcc 
+ %endif 
 
 Summary:	X.org driver for ARK Logic graphics chipsets
 Name:		x11-driver-video-ark
