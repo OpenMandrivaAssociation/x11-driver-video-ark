@@ -1,7 +1,4 @@
-%define _disable_ld_no_undefined 1
- %ifarch 
- i586 export CC=gcc 
- %endif 
+%define _disable_ld_no_undefined 1 
 
 Summary:	X.org driver for ARK Logic graphics chipsets
 Name:		x11-driver-video-ark
@@ -26,7 +23,7 @@ x11-driver-video-ark is the X.org driver for ARK Logic graphics chipsets.
 %apply_patches
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
