@@ -2,12 +2,12 @@
 
 Summary:	X.org driver for ARK Logic graphics chipsets
 Name:		x11-driver-video-ark
-Version:	0.7.5
-Release:	19
+Version:	0.7.6
+Release:	1
 Group:		System/X11
 License:	MIT
-Url:		http://xorg.freedesktop.org
-Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-ark-%{version}.tar.bz2
+Url:		https://xorg.freedesktop.org
+Source0:	https://xorg.freedesktop.org/releases/individual/driver/xf86-video-ark-%{version}.tar.xz
 Patch0:		remove_mibstore_h.patch
 
 BuildRequires:	pkgconfig(xorg-macros)
