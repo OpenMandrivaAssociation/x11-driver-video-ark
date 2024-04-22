@@ -1,4 +1,5 @@
-%define _disable_ld_no_undefined 1 
+%define _disable_ld_no_undefined 1
+%global optflags %{optflags} -Wno-error -Wno-implicit-function-declaration
 
 Summary:	X.org driver for ARK Logic graphics chipsets
 Name:		x11-driver-video-ark
