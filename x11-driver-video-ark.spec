@@ -8,7 +8,6 @@ Group:		System/X11
 License:	MIT
 Url:		https://xorg.freedesktop.org
 Source0:	https://xorg.freedesktop.org/releases/individual/driver/xf86-video-ark-%{version}.tar.xz
-Patch0:		remove_mibstore_h.patch
 
 BuildRequires:	pkgconfig(xorg-macros)
 BuildRequires:	pkgconfig(xorg-server)
